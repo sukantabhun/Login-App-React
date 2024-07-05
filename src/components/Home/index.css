@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.elements {
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 145px;
+  border-radius: 12px;
+  row-gap: 25px;
+}
